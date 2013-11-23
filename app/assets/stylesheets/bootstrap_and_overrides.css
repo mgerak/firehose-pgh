@@ -24,7 +24,8 @@ body {
 	font-family: Helvetica Neue Light,Helvetica Neue,Helvetica,sans-serif;
 	font-weight: 100;
 	font-size: 64px;
-	color: white;	
+	color: white;
+	line-height: 65px;	
 }
 
 h2{
