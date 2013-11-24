@@ -5,11 +5,13 @@
 	</h1>
 
 	<%= simple_form_for @pic do |f| %>
-</br>
+	</br>
 	<%= f.input :lesson %>
-</br>	
+	</br>	
+	<%= f.input :image, label: "Upload your image." %>
+	</br>	
 	<%= f.input :emotion, label: "How did you feel?", placeholder: 'Happy, Jazzed, Super' %>
-</br>	
+	</br>	
 	<%= f.input :learned, label: "What did you learn?", placeholder: 'CSS, HTML, Rails, Github, Install' %>
 
 	<%= submit_tag 'Save', :class =>'btn btn-success btn-large' %>
