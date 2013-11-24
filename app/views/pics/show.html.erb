@@ -16,4 +16,6 @@
 
 	<%= link_to 'Back', pics_path, :class => 'btn btn-warning btn-large' %>
 	<%= link_to 'Delete', pic_path(@pic), :method => :delete, :class => 'btn btn-danger btn-large', :confirm => 'Sure you want to delete?' %>
+	<%= link_to 'Edit', edit_pic_path(@pic), :class => 'btn btn-large' %>
+
 </div>
